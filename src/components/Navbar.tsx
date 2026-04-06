@@ -79,25 +79,19 @@ export default function Navbar() {
           {/* Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-2 group"
+            className="group"
           >
             <div className="group-hover:drop-shadow-[0_0_10px_rgba(105,212,248,0.5)] transition-all duration-300">
               <Image
                 src="/logo.png"
                 alt="VisualStory"
-                width={140}
-                height={56}
-                className="h-[56px] w-auto object-contain"
+                width={180}
+                height={72}
+                className="h-[72px] w-auto object-contain"
                 style={{ mixBlendMode: 'screen' }}
                 priority
               />
             </div>
-            <span
-              className="hidden sm:block text-[9px] font-medium uppercase tracking-[0.15em] text-[#69D4F8] ml-1"
-              style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-            >
-              VIDEO PRODUCTION FOR AGENCIES
-            </span>
           </button>
 
           {/* Desktop nav */}
