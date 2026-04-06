@@ -118,11 +118,12 @@ export default function Contact() {
             CONTACT
           </span>
           <h2
-            className="text-[32px] md:text-[44px] font-bold text-white mb-4"
+            className="text-[32px] md:text-[44px] font-bold text-white mb-4 leading-tight"
             style={{ fontFamily: 'var(--font-space-grotesk), sans-serif' }}
           >
-            Hai să discutăm despre{' '}
-            <span className="gradient-text">proiectul tău.</span>
+            Hai să discutăm
+            <br />
+            <span className="gradient-text">despre proiectul tău.</span>
           </h2>
           <div className="w-16 h-[2px] mx-auto mb-5" style={{ background: 'linear-gradient(90deg, #E031F4, #69D4F8)' }} />
           <p
